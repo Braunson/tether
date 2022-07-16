@@ -1,0 +1,30 @@
+{
+    "name": "interfaceable/tether",
+    "description": "Abstract Inertia.js pages and props into re-usable PHP classes for the Laravel adapter.",
+    "keywords": ["laravel", "inertia"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Interfaceable\\Tether\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Percy Mamedy",
+            "email": "percymamedy@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|~8.0.0|~8.1.0",
+        "inertiajs/inertia-laravel": "^0.6.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Interfaceable\\TetherServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
