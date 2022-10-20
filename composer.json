@@ -18,6 +18,9 @@
         "php": "^8.1",
         "inertiajs/inertia-laravel": "^0.6.3"
     },
+    "scripts": {
+        "lint": "./vendor/bin/pint"
+    },
     "extra": {
         "laravel": {
             "providers": [
@@ -26,5 +29,8 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "laravel/pint": "^1.2"
+    }
 }
